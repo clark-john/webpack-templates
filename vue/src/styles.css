@@ -1,0 +1,18 @@
+div	{
+	display: grid;
+	justify-items: center;
+	margin-top: 1rem;
+}
+
+button {
+	padding: 1rem 1.5rem;
+	border-radius: 1rem;
+	border-style: none;
+	transition: filter 150ms;
+}
+button:active {
+	transform: translateY(2px);
+}
+button:hover {
+	filter: brightness(.75);
+}
